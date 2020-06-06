@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Container from 'react-bootstrap/Container';
 import './App.css';
 
 //utilizing class-based component inrder to use state
@@ -46,8 +42,9 @@ class App extends React.Component {
   render() {
     return (
       <Router>
+        <Container fluid={true}>
 
-        
+        </Container>
       </Router>
     );
   }
