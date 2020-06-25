@@ -1,8 +1,9 @@
 import React from 'react';
 import Wrapper from './components/Wrapper';
 import NavBar from './components/NavBar';
+import Main from './components/Main';
 
-//utilizing class-based component inrder to use state
+//utilizing class-based component inorder to use state
 class App extends React.Component {
 
 
@@ -10,9 +11,8 @@ class App extends React.Component {
     return (
 
         <Wrapper>
-          <NavBar>
-
-          </NavBar>
+          <NavBar/>
+          <Main/>
         </Wrapper>
     );
   }
