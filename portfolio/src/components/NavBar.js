@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function NavBar() {
     return (
@@ -6,18 +8,17 @@ function NavBar() {
             <div className="menu-btn">
                 <span className="menu-btn__burger"></span>
             </div>
-
             <nav className="nav">
                 <ul className="menu-nav">
                     <li className="menu-nav__item active">
-                        <a href="index.html" class="menu-nav__link">
+                        <Link to="/" class="menu-nav__link">
                             Home
-            </a>
+            </Link>
                     </li>
                     <li className="menu-nav__item">
-                        <a href="src/html/about.html" class="menu-nav__link">
+                        <Link to="/about" class="menu-nav__link">
                             About Me
-            </a>
+            </Link>
                     </li>
                     <li className="menu-nav__item">
                         <a href="src/html/projects.html" class="menu-nav__link">
@@ -39,5 +40,4 @@ function NavBar() {
         </div>
     );
 }
-
 export default NavBar;
