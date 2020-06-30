@@ -240,6 +240,8 @@
 
 .about .skills__skill {
   background: #341c5d;
+  display: -ms-grid;
+  display: grid;
   padding: 0.5rem;
   border-bottom: 5px solid purple;
 }

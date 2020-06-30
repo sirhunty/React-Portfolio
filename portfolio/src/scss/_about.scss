@@ -49,6 +49,7 @@
 
         &__skill {
            background: lighten($primary-color, 10%);
+           display: grid;
            padding: 0.5rem;
            border-bottom: 5px solid $third-color; 
         }

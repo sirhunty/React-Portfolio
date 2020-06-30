@@ -23,7 +23,7 @@ function About() {
                 <div className="skills-list">
                     <h1>Acquired Skills</h1>
                 </div>
-                <div class="skills__skill">
+                <div className="skills__skill">
                     <i className="devicon-html5-plain-wordmark colored"></i>
                     <i className="devicon-css3-plain-wordmark colored"></i>
                     <i className="devicon-javascript-plain colored"></i>
@@ -168,7 +168,11 @@ function About() {
 
             </div>
 
-            
+            <div className="social-icons">
+                        <i onClick={() => window.open("https://www.linkedin.com/in/christopher-matthews-62833152/", "_blank")} className="fa fa-linkedin fa-2x" ></i >
+                        <i onClick={() => window.open("https://christopher-matthews.herokuapp.com/", "_blank")} className="fa fa-github fa-2x" ></i >
+                        <a href="src/public/Assets/Images/ChristopherMatthews_Web-Dev_Resume.pdf" target="_blank" rel="noopener noreferrer" class="fa fa-file fa-2x"></a>
+                    </div>
 
             <footer>&copy; 2020 Christopher H Matthews</footer>
         </section>
